@@ -1,3 +1,37 @@
-mat-grid-tile {
-  background: skyblue;
+* {
+  font-family: "KoHo";
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+  color: whitesmoke;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  /* height: 100%; */
+  /* justify-content: space-evenly; */
+  background-color: slateblue;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 1px gray;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  /* height: 100%; */
+  justify-content: space-evenly;
+  background-color: salmon;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 1px gray;
 }

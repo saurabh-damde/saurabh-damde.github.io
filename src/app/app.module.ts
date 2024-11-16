@@ -14,9 +14,11 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { ContentComponent } from './components/content/content.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [AppComponent, MenuComponent],
+  declarations: [AppComponent, MenuComponent, ContentComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -29,6 +31,7 @@ import { MenuComponent } from './components/menu/menu.component';
     MatListModule,
     MatIconModule,
     MatDividerModule,
+    FontAwesomeModule,
   ],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
